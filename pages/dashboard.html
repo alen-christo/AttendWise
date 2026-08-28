@@ -65,9 +65,20 @@
 
     <section class="today">
 
-        <h2>Today's Classes</h2>
+        <div class="section-header">
+            <div>
+                <h2>Today's Classes</h2>
+                <p>Mark your attendance for today's classes.</p>
+            </div>
 
-        <p>(We'll build this next)</p>
+            <span class="today-date" id="todayDate"></span>
+        </div>
+
+        <div class="class-list" id="classList">
+
+            <!-- Classes will be added using JavaScript -->
+
+        </div>
 
     </section>
 
@@ -76,48 +87,15 @@
 
     <h2>Your Subjects</h2>
 
-    <div class="subject-grid">
+    <div class="subject-grid" id="subjectGrid">
 
-        <div class="subject-card">
-
-            <div class="subject-header">
-
-                <h3>📘 Data Mining</h3>
-
-                <span class="badge safe-badge">Safe</span>
-
-            </div>
-
-            <h1>91%</h1>
-
-            <div class="progress-bar">
-
-                <div class="progress-fill"></div>
-
-            </div>
-
-            <div class="subject-info">
-
-                <span>Present: 32</span>
-
-                <span>Absent: 3</span>
-
-            </div>
-
-            <div class="subject-footer">
-
-                <p>Need to attend: <strong>0</strong></p>
-
-                <p>Can miss: <strong>5</strong></p>
-
-            </div>
-
-        </div>
+       
 
     </div>
 
     </section>
 
 </div>
+<script src="../js/script.js"></script>
 </body>
 </html>
